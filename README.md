@@ -14,8 +14,9 @@ A TodoListAPI é uma API desenvolvida em Java com Spring Boot, projetada para ge
 - **Java**: Linguagem de programação.
 - **Spring Boot**: Framework para desenvolvimento de aplicações Java.
 - **Spring Data JPA**: Para interação com o banco de dados.
-- **H2 Database**: Banco de dados em memória (pode ser substituído por outro banco de dados).
+- **PostgreSQL**: Banco de dados Relacional (pode ser substituído por outro banco de dados).
 - **Maven**: Gerenciador de dependências e construção.
+- **Insomnia**: Testes de requisições HTTP.
 
 ## Requisitos
 
@@ -88,11 +89,8 @@ A TodoListAPI é uma API desenvolvida em Java com Spring Boot, projetada para ge
 4. Envie para o repositório remoto: `git push origin minha-modificacao`.
 5. Abra um Pull Request.
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
-Se você tiver alguma dúvida, entre em contato com [seuemail@example.com](mailto:seuemail@example.com).
+Se você tiver alguma dúvida, entre em contato com [seuemail@example.com](mailto:luizkato8@example.com).
 
