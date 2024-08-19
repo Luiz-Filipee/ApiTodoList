@@ -1,5 +1,6 @@
 CREATE TABLE tasks(
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
+    amount INTEGER NOT NULL,
     value FLOAT NOT NULL
 );
