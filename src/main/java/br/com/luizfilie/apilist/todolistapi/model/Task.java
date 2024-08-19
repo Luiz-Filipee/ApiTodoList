@@ -19,10 +19,12 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private Integer amount;
     private Double value;
 
     public Task(TaskRequestDTO data){
         this.name = data.name();
+        this.amount = data.amount();
         this.value = data.value();
     }
 }
